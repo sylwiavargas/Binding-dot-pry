@@ -26,7 +26,7 @@ quotes_arr = [
 ]
 
 quotes_arr.each do |quote| 
-    Quote.new(quote)
+    Quote.create(quote)
 end
 
 puts "⭐️⭐️⭐️⭐️ SEEDED ⭐️⭐️⭐️⭐️"
