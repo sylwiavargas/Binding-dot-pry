@@ -21,7 +21,7 @@ quotes_arr = [
     {content: "It's never too late - never too late to start over, never too late to be happy.", person_id: jane.id},
     {content: "Without deviation from the norm, progress is not possible.", person_id: frank.id},
     {content: "The computer can't tell you the emotional story. It can give you the exact mathematical design, but what's missing is the eyebrows.", person_id: frank.id},
-    {content: "Not everybody goes to movies to get their life changed.", person_id: samuel.id},
+    {content: "Not everybody goes to movies to get their life changed.", person_id: samuel.birth},
     {content: "Did you mean...?", person_id: ruby.id},
 ]
 
