@@ -3,23 +3,34 @@
 Welcome to Quote Treasure.
 
 ```
-   Person -----------< Quote
-   :name (str)           :content(str)
-   :occupation (str)
-   :birth(DateTime)
-   :death(DateTime)
+   User --------------< Tweet
+   :username           :content
+                       :user
 ```
 
 ## Functionality
 
-- `Person.all_quotes` - `puts` a list of quotes with their authors, e.g.
-"
-✨ 'Some quote' - some person
-
-✨ 'Another quote' - another person
+- `User#print_all_tweets` - `puts` a list of all tweets by a User, e.g.
 
 "
-- `Person#current_age` - `puts` "NAME is currently AGE" or, if the person passed away, "NAME passed away in YEAR, at the age of AGE"
+Username:
+✨ Their first tweet
 
----
+✨ Their second tweet
+"
+
+^ this one needs work
+
+- `Tweet.print_all_tweets` - `puts` a list of all tweets by all Users following the above format
+
+^ to develop
+
+- `User#average_tweet_length` - `puts` "NAME's average tweet length is NUMBER"
+
+^ this one works (maybe?)
+
+- `User.longest_tweets` - returns an instance of a User who writes the longest tweets on average
+
+^ this one breaks?!?!
+
 
