@@ -37,5 +37,5 @@ class Tweet
     
 end
 
-# this global variable usually would be placed in "tools" file or be a method inside of a module because the assumption here is that it is going to be available to a few different classes/files; for simplicity, it's a global variable;
+# this global variable usually would be placed in "tools" file or be a method inside of a module so it could be used in different classes/files; for simplicity, it's a global variable;
 $random_chars = %w{🁒 ℊ ℀ ☁︎ ☼ ℥ ⚈ 🃘 ⎆ ⍒ ⎲ ⎢ ⏈ ┼ ⏋ ␎ ⑇ ⑉ ␦ ␥ ☠︎}
