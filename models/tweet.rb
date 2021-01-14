@@ -30,6 +30,7 @@ class Tweet
         $random_chars.sample(num).join("")
     end
 
+    # this is a placeholder method, let's say a remnant of a past -- let's imagine someone was coding fast and needed some quick random data and then forgot about it
     def to_s
         generate_tweet
     end
