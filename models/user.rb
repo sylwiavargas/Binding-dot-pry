@@ -29,7 +29,7 @@ class User
 
     def average_tweet_length
         # this could be refactored to: tweets.sum(&:length)
-        0 || tweets.sum{|tweet| tweet.length} / tweets.size.to_f
+        tweets.sum{|tweet| tweet.length} / tweets.size.to_f
     end
 
     def self.longest_tweets
