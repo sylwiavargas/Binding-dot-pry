@@ -10,6 +10,11 @@ Welcome to Quote Treasure.
    :death(DateTime)
 ```
 
+## Get started
+1. fork / clone
+2. `rake db:migrate`
+3. `rake db:seed`
+
 ## Functionality
 
 - `Person.all_quotes` - `puts` a list of quotes with their authors, e.g.

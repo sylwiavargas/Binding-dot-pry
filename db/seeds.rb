@@ -6,6 +6,7 @@ Quote.reset_pk_sequence
 ### PEOPLE
 puts "✨ creating people ✨"
 
+# all these people, ruby too, have been born on Dec 21st, the day of the first pry workshop
 jane = Person.create(name: "Jane Fonda", occupation: "actor, political activist, environmentalist, and former fashion model", birth:1937-12-21)
 frank = Person.create(name: "Frank Zappa", occupation: "singer, activist", birth:1940-12-21, death:1993-12-4)
 samuel = Person.create(name: "Samuel L. Jackson", occupation: "actor and producer", birth:1948-12-21)
